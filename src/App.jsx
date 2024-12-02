@@ -11,7 +11,7 @@ function App() {
   return (
     <>
       <h1>Flash Cards</h1>
-      <FlashCard/>
+      {questionsData.map((question,index)=><FlashCard {...question} key={index}/>)}
     </>
   )
 }

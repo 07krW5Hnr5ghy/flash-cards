@@ -1,8 +1,6 @@
 import { useState } from "react";
-
-const [toggleAnswer,setToggleAnswer] = useState(false);
-
 function FlashCard({question,answer}){
+    const [toggleAnswer,setToggleAnswer] = useState(false);
     return(
         <div>
             <div>
@@ -10,7 +8,7 @@ function FlashCard({question,answer}){
             </div>
             <div>
                 <button>Previous</button>
-                <button onClick={setToggleAnswer(!toggleAnswer)}>{toggleAnswer ? "Hide Answer" : "Show Answer"}</button>
+                <button onClick={() => setToggleAnswer(!toggleAnswer)}>{toggleAnswer ? "Hide Answer" : "Show Answer"}</button>
                 <button>Next</button>
             </div>
         </div>
