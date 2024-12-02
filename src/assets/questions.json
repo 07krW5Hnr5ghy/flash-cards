@@ -1,0 +1,82 @@
+[
+    {
+        "question": "What is JavaScript?",
+        "answer": "JavaScript is a high-level, interpreted programming language used primarily for web development to create dynamic and interactive web pages."
+    },
+    {
+        "question": "What is the difference between '==' and '===' in JavaScript?",
+        "answer": "'==' checks for equality after type coercion, while '===' checks for equality without performing type coercion."
+    },
+    {
+        "question": "What is a closure in JavaScript?",
+        "answer": "A closure is a function that retains access to its outer scope, even after the outer function has finished executing."
+    },
+    {
+        "question": "What are JavaScript data types?",
+        "answer": "JavaScript data types include: Number, String, Boolean, Undefined, Null, Object, and Symbol."
+    },
+    {
+        "question": "What is the purpose of the 'this' keyword in JavaScript?",
+        "answer": "The 'this' keyword refers to the object it belongs to, depending on how the function is called."
+    },
+    {
+        "question": "What is the difference between 'var', 'let', and 'const'?",
+        "answer": "'var' has function scope, while 'let' and 'const' have block scope. 'const' is used for variables that shouldn't be reassigned."
+    },
+    {
+        "question": "What is the Event Loop in JavaScript?",
+        "answer": "The Event Loop is a mechanism in JavaScript that handles the execution of multiple pieces of code, ensuring non-blocking behavior."
+    },
+    {
+        "question": "What are Promises in JavaScript?",
+        "answer": "Promises are objects that represent the eventual completion or failure of an asynchronous operation."
+    },
+    {
+        "question": "What is the difference between 'call', 'apply', and 'bind'?",
+        "answer": "'call' and 'apply' invoke a function with a specified 'this' value, but 'apply' takes an array of arguments. 'bind' returns a new function with a specified 'this'."
+    },
+    {
+        "question": "What is hoisting in JavaScript?",
+        "answer": "Hoisting is a JavaScript mechanism where variable and function declarations are moved to the top of their scope during compilation."
+    },
+    {
+        "question": "What is the difference between 'null' and 'undefined'?",
+        "answer": "'null' is an assigned value representing 'no value', while 'undefined' means a variable has been declared but not assigned a value."
+    },
+    {
+        "question": "What are arrow functions?",
+        "answer": "Arrow functions are a concise syntax for writing functions, introduced in ES6. They do not have their own 'this' binding."
+    },
+    {
+        "question": "What is the difference between 'for...in' and 'for...of'?",
+        "answer": "'for...in' iterates over the properties of an object, while 'for...of' iterates over the values of an iterable object."
+    },
+    {
+        "question": "What are JavaScript modules?",
+        "answer": "Modules allow you to break up code into separate files and use 'import' and 'export' keywords to share functionality."
+    },
+    {
+        "question": "What is the DOM in JavaScript?",
+        "answer": "The DOM (Document Object Model) is an interface that allows scripts to dynamically access and manipulate the structure of a web document."
+    },
+    {
+        "question": "What is debouncing in JavaScript?",
+        "answer": "Debouncing is a technique to ensure a function is executed only after a certain period of inactivity."
+    },
+    {
+        "question": "What is throttling in JavaScript?",
+        "answer": "Throttling is a technique to ensure a function is executed at most once in a specified period."
+    },
+    {
+        "question": "What is the 'use strict' directive?",
+        "answer": "'use strict' is a directive that enforces stricter parsing and error handling in JavaScript code."
+    },
+    {
+        "question": "What is JSON?",
+        "answer": "JSON (JavaScript Object Notation) is a lightweight data interchange format that is easy for humans to read and write."
+    },
+    {
+        "question": "What is the difference between synchronous and asynchronous programming?",
+        "answer": "Synchronous programming executes tasks one at a time in sequence, while asynchronous programming allows tasks to run independently."
+    }
+]
